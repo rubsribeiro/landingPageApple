@@ -190,3 +190,64 @@ main .iphone-section .text-wrapper {
     align-items: center;
     margin-top: 51px;
 }
+
+main .iphonePro-section .text-wrapper {
+    position: absolute;
+    left: 25%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 51px;
+}
+
+main .iphonePro-section h2 {
+    color: var(--text-light);
+    font-size: 3rem;
+    font-weight: normal;
+    line-height: 4rem;
+    letter-spacing: -0.28px;
+}
+
+main .iphonePro-section p {
+    color: var(--title-primary-color);
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 2rem;
+    letter-spacing: 0.11px;
+    margin-bottom: 1rem;
+}
+
+main .iphones {
+    display: flex;
+    margin: 1rem;
+}
+
+main .iphonePro-section .text-wrapper-ipad {
+    position: absolute;
+    left: 75%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 51px;
+}
+
+main .iphonePro-section .text-wrapper-ipad h2 {
+    color: var(--text-dark);
+    font-size: 3rem;
+    font-weight: normal;
+    line-height: 4rem;
+    letter-spacing: -0.28px;
+}
+
+main .iphonePro-section .text-wrapper-ipad p {
+    color: var(--text-dark);
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 2rem;
+    letter-spacing: 0.11px;
+    margin-bottom: 1rem;
+}
+
+
