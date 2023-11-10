@@ -1,4 +1,4 @@
-# Apple Landing Page 
+# Apple Landing Page
 <br>
 
 ![apple](https://github.com/rubsribeiro/landingPageApple/assets/110606629/613fca2b-f832-474c-ba7d-e4c7d892a327)
