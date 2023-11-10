@@ -374,10 +374,122 @@ footer section ul li {
 }
 
 @media screen and (max-width: 480px) {
-    main .main-section .text-wrapper{
-        margin: 0.8rem;
+    footer {
+        display: none;
     }
+
+    main .main-section h1 {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    main .main-section h2 {
+        font-size: 0.6rem;
+        margin-top: 0.4rem;
+        white-space: nowrap;
+    }
+
+    main .main-section .text-wrapper a {
+        font-size: 0.8rem;
+        line-height: 0;
+    }
+
+    main .spirited-section >div:first-child p {
+        font-size: 1rem;
+    }
+
+    main .spirited-section > div:first-child {
+        top: 10px;
+    }
+
+    main .spirited-section span {
+        font-size: 0.5rem;
+        
+    }
+
+    main .spirited-section > div:last-child {
+        bottom: 5px;
+        font-size: 0.7rem;
+    }
+
+    main .title {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    
+    main .iphone-section .text-wrapper p {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    main .iphone-section .text-wrapper a {
+        font-size: 1rem;
+    }
+
+    main .grid .title {
+        font-size: 0.8rem;
+        line-height: 0.5rem;
+    }
+
+    main .grid .description {
+        font-size: 0.5rem;
+        margin-bottom: 0;
+        line-height: 1rem;
+    
+    }
+
+    main .grid a {
+        font-size: 0.5rem;
+        line-height: 0.3rem;
+        
+    }
+
+    main .airpods-section .text-wrapper {
+        margin-top: 5px;
+    }
+
+    main .airpods-section .text-wrapper h2 {
+        font-size: 0.6rem;
+    }
+
+    main .airpods-section .apple-present {
+        width: 20px;
+        height: 27px;
+    }
+
+    main .watch-section .apple-watch {
+        width: 200px;
+        height: 23px;
+    }
+
+    main .watch-section .text-wrapper {
+        line-height: 0;
+    }
+
+    main .watchUltra-section .apple-ultra {
+        width: 240px;
+        height: 32px;
+        margin: 0;
+    }
+
+    main .watchUltra-section .text-wrapper {
+        line-height: 0;
+        margin: 0;
+    }
+
+    main .gift-section .gift-card {
+        width: 200px;
+        height: 18px;
+    }
+
+    main .gift-section .text-wrapper {
+        margin: 0;
+    }
+
+
 }
+
+
 
 
 
