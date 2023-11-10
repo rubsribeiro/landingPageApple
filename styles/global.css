@@ -54,7 +54,9 @@ main section {
 main section img {
     width: 100%;
     height: auto;
+    cursor: pointer;
 }
+
 
 main section a {
     color: var(--action-color);
@@ -268,13 +270,113 @@ footer section {
 footer h3 {
     color: var(--text-dark);
     font-size: 12px;
+
 }
 
 footer section ul li {
     font-size: small;
     list-style: none;
     color: var(--items-footer);
-    padding: 10px 0;
+    padding: 8px 0;
+}
+
+/*Media*/
+
+@media screen and (max-width: 768px) {
+    header nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0;
+        padding: 0; 
+    }
+
+    header nav ul li img {
+        margin: 0.3rem;
+    }
+    
+    main .main-section h1 {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    main .main-section h2 {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    main .main-section .text-wrapper{
+        margin: 0.8rem;
+    }
+
+    main .spirited-section >div:first-child p {
+        font-size: 1.5rem;
+
+    }
+
+    main .spirited-section > div:first-child {
+        top: 30px;
+        max-width: 75%;
+    }
+
+    main .spirited-section > div:last-child {
+        bottom: 20px;
+    }
+
+    main .spirited-section span {
+        font-size: 0.7rem;
+        
+    }
+
+   main .title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+   }
+
+   main .iphone-section .text-wrapper {
+    margin-top: 0;
+
+   }
+
+   main .iphone-section .text-wrapper p {
+    margin-bottom: 0;
+   }
+
+   main .grid .title {
+    font-size: 1rem;
+    line-height: 1.2rem;
+   }
+
+   main .grid a{
+    line-height: 1rem;
+    font-size: 0.8rem;
+   }
+
+   main .grid .description {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    line-height: 1.2rem;
+
+   }
+
+   main .grid .text-wrapper {
+    margin-top: 1rem;
+
+   }
+
+   main .watch-section .text-wrapper {
+    margin-top: 1rem;
+   }
+
+   main .watch-section .text-wrapper img {
+    margin-bottom: 0.3rem;
+   }
+
+}
+
+@media screen and (max-width: 480px) {
+    main .main-section .text-wrapper{
+        margin: 0.8rem;
+    }
 }
 
 
