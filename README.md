@@ -1,7 +1,8 @@
 # Apple Landing Page
 <br>
 
-![apple](https://github.com/rubsribeiro/landingPageApple/assets/110606629/613fca2b-f832-474c-ba7d-e4c7d892a327)
+
+![apple](https://github.com/rubsribeiro/landingPageApple/assets/110606629/3411ad0e-bd85-44af-a0c5-b592a10e650f)
 
 
 ## Aplicação feita utilizando:
