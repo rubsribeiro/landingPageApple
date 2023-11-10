@@ -9,6 +9,7 @@
 - CSS
 - JavaScript
 - Figma
+PS: Totalmente Responsivo
 
 
 ![apple_2](https://github.com/rubsribeiro/landingPageApple/assets/110606629/c36246d0-ed7b-4290-8043-151b05c6bade)
