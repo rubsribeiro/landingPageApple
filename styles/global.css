@@ -373,6 +373,47 @@ footer section ul li {
 
 }
 
+@media screen and (max-width: 425px) {
+    header nav ul li {
+        padding: 8px;
+        margin: 3px 0 0 0;
+    }
+
+    main .iphone-section .text-wrapper .description {
+      font-size: small;
+      line-height: 1.5rem;
+    }
+
+    main .grid .text-wrapper .title {
+        font-size: 0.5rem;
+        line-height: 0.2rem;
+    }
+
+    main .link-wrapper {
+        font-size: 0.5rem;
+        gap: 0.3rem;
+    }
+
+    main .grid .description {
+        line-height: 0;
+    }
+
+    main .ipad-section .text-wrapper .description {
+        line-height: 0.7rem;
+    }
+
+    main .watch-section .text-wrapper .description {
+        line-height: 0;
+    }
+
+    main .watch-section .text-wrapper .link-wrapper a {
+        line-height: 1.2rem;
+    }
+
+}
+
+
+
 @media screen and (max-width: 480px) {
     footer {
         display: none;
@@ -546,17 +587,4 @@ main .spirited-section span {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
